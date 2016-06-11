@@ -11,108 +11,56 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Spinder!</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Get started</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">FAQ</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Get started</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">FAQ</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Spinder!</h1>
+      <h1 class="header center">Spinder!</h1>
       <div class="row center">
-        <h5 class="header col s12 light">A speed dating game for techies!</h5>
+        <h5 class="header col s12 light">Welcome! Login to continue.</h5>
       </div>
-      <div class="row center">
-        <a href="login.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
-      <br><br>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">face</i></h2>
-            <h5 class="center">Set up your account</h5>
-
-            <p class="light">Blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">schedule</i></h2>
-            <h5 class="center">Blah blah blah</h5>
-
-            <p class="light">Blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">stars</i></h2>
-            <h5 class="center">Rate your conversation</h5>
-
-            <p class="light">Blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
-          </div>
-        </div>
-      </div>
-    </div>
     <br><br>
 
-    <div class="section">
+      <div class="section">
+        <form class="col s12" action="#">
+          <div class="row">
+            <div class="input-field col s12 m6 l6">
+              <input id="username" type="text" class="validate">
+              <label for="username">Username</label>
+            </div>
+            <div class="input-field col s12 m6 l6">
+              <input id="password" type="password" class="validate">
+              <label for="password" data-error="Insert your password again" data-success="Correct password">Password</label>
+            </div>
+          </div>
+          <div id="textbox">
+            <p class="alignleft">
+              <input type="checkbox" id="loggedin"/>
+              <label for="loggedin">Keep me logged in</label>
+            </p>
+            <p class="alignright">
+              <a href="#">Already have an account?</a>
+            </p>
+          </div>
+          <div style="clear: both;"></div>
+          <div class="row center">
+            <a href="#" id="login-button" class="btn waves-effect waves-light light-blue">Login</a>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
 
-  <footer class="page-footer light-blue">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">About</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
+    <footer class="page-footer grey lighten-3">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href=""></a>
+        <div class="row">
+          <div class="col s12 left">
+              <a class= "footer" href="#">Us </a>
+              <a class= "footer" href="#"> About </a>
+              <a class= "footer" href="#"> Source code</a>
+              <br><br>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
