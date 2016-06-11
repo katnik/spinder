@@ -16,11 +16,45 @@
       <br><br>
       <h1 class="header center">Spinder!</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Welcome! Login to continue.</h5>
+        <h5 class="header light">Welcome! Login or signup to continue.</h5>
       </div>
-    <br><br>
+    <!--<br><br>-->
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Login</span>
+            <form>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="username" type="text" class="validate">
+                    <label for="username" class="active">Username</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                    <label for="password" class="active" data-error="Insert your password again" data-success="Correct password">Password</label>
+                </div>
+              </div>
+              <input type="submit" class="btn waves-effect waves-light light-blue" value="Login">
+            </form>
+          </div>
+          <div class="card-action">
+            <div class="row">
+              <div class="input-field col s6 m6 l6">
+                <p class="margin medium-small"><a href="forgot-password.html">Forgot password?</a></p>
+              </div>
+              <div class="input-field col s6 m6 l6">
+                <p class="margin right-align medium-small"><a href="signup.html">Signup</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <div class="section">
+    <!--  <div class="section">
         <form class="col s12" action="#">
           <div class="row">
             <div class="input-field col s12 m6 l6">
@@ -32,12 +66,16 @@
               <label for="password" data-error="Insert your password again" data-success="Correct password">Password</label>
             </div>
           </div>
+
           <div id="textbox">
             <p class="alignleft">
+              <a href="#">I forgot my password</a>
+            </p>
+            <!--<p class="alignleft">
               <input type="checkbox" id="loggedin"/>
               <label for="loggedin">Keep me logged in</label>
-            </p>
-            <p class="alignright">
+            </p>-->
+            <!--<p class="alignright">
               <a href="#">Already have an account?</a>
             </p>
           </div>
@@ -47,20 +85,22 @@
           </div>
         </form>
       </div>
-    </div>
+    </div>-->
 
-    <footer class="page-footer grey lighten-3">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 left">
-              <a class= "footer" href="#">Us </a>
-              <a class= "footer" href="#"> About </a>
-              <a class= "footer" href="#"> Source code</a>
-              <br><br>
-          </div>
+  </div>
+</div>
+  <footer class="page-footer grey lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 left">
+          <a class= "footer" href="#">Us </a>
+          <a class= "footer" href="#"> About </a>
+          <a class= "footer" href="#"> Source code</a>
+          <br><br>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

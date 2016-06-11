@@ -7,12 +7,32 @@
  */
 
 body {
-    display: flex;
+
     min-height: 100vh;
     flex-direction: column;
     background-color: #f9f9f9;
     color: #424242;
-  }
+    align-items: center;
+
+}
+
+.col.s12.m6.l6{
+    float: none;
+    margin: 50px auto;
+    min-width: 300px;
+
+}
+/*.card {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     -moz-transform: translate(-50%, -50%)
+     -webkit-transform: translate(-50%, -50%)
+     -ms-transform: translate(-50%, -50%)
+     -o-transform: translate(-50%, -50%)
+     transform: translate(-50%, -50%);
+}
+*/
 main {
     flex: 1 0 auto;
   }
@@ -22,12 +42,14 @@ h1 {
 a {
   color: #03a9f4;
 }
-a.footer{
-  color: #757575;
+a.footer {
+  color: #616161;
   font-size: small;
 }
+
 .btn {
   background-color: #03a9f4;
+  border: none;
 }
 .alignleft {
 	float: left;
