@@ -15,8 +15,7 @@ body {
     align-items: center;
 
 }
-
-.col.s12.m6.l6{
+.col.s12.m6.l6 {
     float: none;
     margin: 50px auto;
     min-width: 300px;
@@ -42,11 +41,14 @@ h1 {
 a {
   color: #03a9f4;
 }
+a:hover{
+  color: #039be5;
+  transition: color .3s ease;
+}
 a.footer {
   color: #616161;
   font-size: small;
 }
-
 .btn {
   background-color: #03a9f4;
   border: none;
@@ -107,4 +109,15 @@ a.footer {
 }
 .lightblue {
   color: #03a9f4;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #03a9f4;
+  margin-right: 20px;
+  text-transform: none;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+  text-transform: none;
+  transition: color .3s ease;
+  color: #039be5;
 }
