@@ -24,7 +24,7 @@
         <div class="card">
           <div class="card-content">
             <span class="card-title">Signup</span>
-            <form>
+            <form action="info.html">
               <div class="row">
                 <div class="input-field col s12">
                   <input id="username" type="text" class="validate">
@@ -43,7 +43,16 @@
                     <label for="password" class="active" data-error="Insert your password again" data-success="Correct password">Retype password</label>
                 </div>
               </div>
-            <input type="submit" class="btn waves-effect waves-light light-blue" value="Login">
+              <div class="row">
+                <div class="input-field col s12">
+                  <select class="icons">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="Female" data-icon="images/woman.png" class="circle">Female</option>
+                    <option value="Male" data-icon="images/man.png" class="circle">Male</option>
+                  </select>
+                </div>
+              </div>
+            <input type="submit" class="btn waves-effect waves-light light-blue" value="Signup">
             </form>
           </div>
           <div class="card-action">
@@ -109,6 +118,11 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('select').material_select();
+    });
+  </script>
 
   </body>
 </html>
