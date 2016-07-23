@@ -1,0 +1,169 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    color: #424242;
+    align-items: center;
+}
+.col.s12.m6.l6 {
+    float: none;
+    margin: 50px auto;
+    min-width: 300px;
+}
+.col.s12.m8.l8.nav {
+    float: none;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+.col.s12.m8.l8 {
+    float: none;
+    margin: 50px auto;
+    min-width: 300px;
+}
+/*.card {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     -moz-transform: translate(-50%, -50%)
+     -webkit-transform: translate(-50%, -50%)
+     -ms-transform: translate(-50%, -50%)
+     -o-transform: translate(-50%, -50%)
+     transform: translate(-50%, -50%);
+}
+*/
+
+nav {
+  color: #fff;
+  background-color: #03a9f4;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+.breadcrumb:before {
+  content: '\E5CC';
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 25px;
+}
+.breadcrumb:first-child {
+  color: #fff;
+}
+.breadcrumb:last-child {
+  color: rgba(255, 255, 255, 0.7);
+}
+main {
+    flex: 1 0 auto;
+  }
+h1 {
+  color: #424242;
+}
+a {
+  color: #03a9f4;
+}
+a:hover{
+  color: #039be5;
+  transition: color .3s ease;
+}
+a.nav {
+  color: rgba(255, 255, 255, 0.7);
+}
+a.nav:focus {
+  color: rgba(255, 255, 255, 0.7);
+}
+a.footer {
+  color: #616161;
+  font-size: small;
+}
+.btn {
+  background-color: #03a9f4;
+  border: none;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #03a9f4;
+}
+/* label focus color */
+.input-field input[type="password"]:focus + label {
+  color: #03a9f4;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #03a9f4;
+  box-shadow: 0 1px 0 0 #03a9f4;
+}
+/* label underline focus color */
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid #03a9f4;
+  box-shadow: 0 1px 0 0 #03a9f4;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid green;
+  box-shadow: 0 1px 0 0 green;
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 red;
+}
+/* valid color */
+.input-field input[type="password"].valid {
+  border-bottom: 1px solid green;
+  box-shadow: 0 1px 0 0 green;
+}
+/* invalid color */
+.input-field input[type="password"].invalid {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 red;
+}
+.input[type="checkbox"]:checked + label::after {
+     border: 1px solid #03a9f4;
+     color: #03a9f4;
+}
+.lightblue {
+  color: #03a9f4;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #03a9f4;
+  margin-right: 20px;
+  text-transform: none;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+  text-transform: none;
+  transition: color .3s ease;
+  color: #039be5;
+}
+.select-wrapper input.select-dropdown {
+  color: #999999;
+}
+.select-wrapper span.caret {
+  color: #999999;
+}
+.select-dropdown li img {
+  height: 45px;
+  width: 45px;
+  margin: 5px 15px;
+  float: right;
+}
